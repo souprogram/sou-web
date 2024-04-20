@@ -24,7 +24,7 @@
                         <h1>Još jedna studentska udruga.</h1>
                     </div>
                     <div>
-                        <footer>
+                        <div>
                             <div class="email">
                                 <u
                                     ><a :href="socialUrls.mail.mailHref">{{
@@ -57,7 +57,7 @@
                                     /></a>
                                 </div>
                             </div>
-                        </footer>
+                        </div>
                     </div>
                 </div>
             </div>
