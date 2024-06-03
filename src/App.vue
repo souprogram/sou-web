@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row min-h-dvh max-h-[200dvh] font-poppins">
-    <div class="bg-black text-white w-full md:w-[50dvw] h-dvh">
+    <div class="relative bg-black text-white w-full md:w-[50dvw] h-dvh">
       <div class="p-12 justify-center items-center w-full gap-8 h-full flex flex-col">
-        <div class="w-[70vw] md:w-[30vw] flex grow">
+        <div class="absolute inset-0 w-[70vw] mx-auto md:w-[30vw] flex grow">
           <img
             class="hidden md:block size-full object-contain object-center"
             src="@/assets/sou-program-logo-desktop.png"
@@ -14,7 +14,7 @@
             alt="Šou program"
           >
         </div>
-        <div class="w-full flex flex-col gap-4">
+        <div class="absolute bottom-12 left-12 w-fit flex flex-col gap-4">
           <p>Sponzori:</p>
           <div class="flex flex-row gap-4">
             <a href="https://plus.hr">
